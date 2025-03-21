@@ -15,11 +15,11 @@ public class Main
     public static void main(String[] args)
     {
         //Testing
-        Person Driver = new Person("Hitler", "Adolf", 41, 189, 72, "Dictator");
-        Person Wife = new Person("Laden", "Bin", 24, 110, 73, "Dictator");
-        Person Son1 = new Person("Mufasa", "Kille", 20, 150, 49, "Dictator");
-        Person Son2 = new Person("Kingga", "Linoe", 47, 169, 90, "Dictator");
-        Person Daughter1 = new Person("Jafar", "Abdul", 14, 126, 40, "Dictator");
+        Person Driver = new Person("Hitler", "Adolf", 41, 189, 72, "Rich");
+        Person Wife = new Person("Laden", "Bin", 24, 110, 73, "Rich");
+        Person Son1 = new Person("Mufasa", "Kille", 20, 150, 49, "Poor");
+        Person Son2 = new Person("Kingga", "Linoe", 47, 169, 90, "Poor");
+        Person Daughter1 = new Person("Jafar", "Abdul", 14, 126, 40, "Rich");
 
         Persons.add(Driver);
         Persons.add(Wife);
